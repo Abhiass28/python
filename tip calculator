@@ -1,7 +1,7 @@
 print('welcome to the tip calculator')
-bill= input('how much is your bill')
-tip= input('how much you want to give tip? ')
-people=input('how many people in the group? ;)
+bill= float(input('how much is your bill'))
+tip= float(input('how much you want to give tip? '))
+people=int(input('how many people in the group? ))
 total_bill= tip/100*bill+bill
 print(f"your total bill is {total_bill}")
 bill_per_person= total_bill/people
